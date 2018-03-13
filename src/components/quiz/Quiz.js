@@ -115,7 +115,7 @@ export default class Quiz extends React.Component {
                                         height: 30,
                                         textAlign: 'center',
                                         width: 200
-                                    }}>Start Quiz</Text>
+                                    }}>Start Quiz Game</Text>
                                 </TouchableOpacity>
                                 <TouchableOpacity onPress={this.backToDeck}>
                                     <Text style={{

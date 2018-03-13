@@ -35,7 +35,7 @@ class IndividualDeck extends React.Component {
                         });
                     }}
                     style={styles.startQuiz}>
-                    <Text style={styles.startQuizTitle}>Start Quiz</Text>
+                    <Text style={styles.startQuizTitle}>Start Quiz Game</Text>
                 </TouchableOpacity>
 
             </View>

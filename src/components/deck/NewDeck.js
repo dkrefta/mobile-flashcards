@@ -50,7 +50,7 @@ class AddDeck extends React.Component {
     render() {
         return (
             <View style={style.container}>
-                <Text style={{fontSize: 28}}>What is the title of your new deck ?</Text>
+                <Text style={{fontSize: 28}}>Choose the title of your new deck</Text>
 
                 <TextInput
                     value={this.state.text}
