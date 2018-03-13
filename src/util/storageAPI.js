@@ -3,26 +3,26 @@ import {AsyncStorage} from 'react-native';
 export const DECKS_STORAGE_KEY = 'decks:mobile-flashcards';
 
 let data = {
-    React: {
-        title: 'React',
+    Lol: {
+        title: 'League of Legends',
         questions: [
             {
-                question: 'What is React?',
-                answer: 'A library for managing user interfaces',
+                question: 'Who bears the title of "The Thunders Roar?',
+                answer: 'Volibear',
             },
             {
-                question: 'Where do you make Ajax requests in React?',
-                answer: 'The componentDidMount lifecycle event',
+                question: 'Whats the continent where the League of Legends resides called?',
+                answer: 'Valoran',
             }
         ]
     },
-    JavaScript: {
-        title: 'JavaScript',
+    RocknRoll: {
+        title: 'RocknRoll',
         questions: [
             {
-                question: 'What is a closure?',
+                question: 'Who is famous for burning his guitar?',
                 answer:
-                    'The combination of a function and the lexical environment within which that function was declared.',
+                    'Jimi Hendrix',
             }
         ]
     }
