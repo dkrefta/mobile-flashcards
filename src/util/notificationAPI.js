@@ -6,7 +6,7 @@ const NOTIFICATION_KEY = 'notification:mobile-flashcards';
 function buildNotification() {
     return {
         title: 'Mobile Flashcards',
-        body: "Checkout the new questions today",
+        body: "Whats UP! Checkout the new questions today",
         ios: {
             sound: true
         },
